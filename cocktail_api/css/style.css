@@ -1,0 +1,80 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;          
+    margin: 0;               
+  }
+  
+  main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+  }
+  
+  .selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .input {
+    display: flex;
+    gap: 5px;
+  }
+  
+  #input-button {
+    font-size: 13px;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  .visible {
+    visibility: block;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 300px;
+  }
+  
+  .carousel button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+  }
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  #recipe {
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
